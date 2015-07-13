@@ -27,6 +27,7 @@ brew cask install spotify
 brew cask install java6
 brew cask install mplayerx
 brew cask install licecap
+brew cask install crashplan
 
 # dev
 brew cask install iterm2
@@ -54,8 +55,9 @@ brew cask install quicklook-json
 brew cask install qlprettypatch
 brew cask install quicklook-csv
 
-# lower priority utils
+# lower priority 
 brew cask install disk-inventory-x
-
+brew cask install hipchat
+brew cask install slack
 
 exit 0
