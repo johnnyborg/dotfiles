@@ -228,3 +228,8 @@ brew services start dnsmasq
 sudo mkdir -v /etc/resolver 
 sudo bash -c 'echo "nameserver 127.0.0.1" > /etc/resolver/dev'
 sudo bash -c 'echo "port 35353" >> /etc/resolver/dev'
+
+# Install Composer
+curl -sS https://getcomposer.org/installer | php
+mv composer.phar /usr/local/bin/composer
+#
