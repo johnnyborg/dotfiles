@@ -28,6 +28,7 @@ brew cask install java6
 brew cask install mplayerx
 brew cask install licecap
 brew cask install crashplan
+brew cask install spacemonkey
 
 # dev
 brew cask install iterm2
