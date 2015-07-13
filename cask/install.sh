@@ -18,7 +18,7 @@ brew tap caskroom/versions
 
 # essentials
 brew cask install dropbox
-brew cask install onepassword
+brew cask install 1password
 brew cask install flux
 brew cask install seil
 brew cask install bettertouchtool
