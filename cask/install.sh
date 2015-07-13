@@ -38,6 +38,7 @@ brew cask install adobe-creative-cloud
 brew cask install xmind
 brew cask install sketch
 brew cask install sourcetree
+brew cask install sequel-pro
 brew cask install virtualbox
 brew cask install vagrant
 
