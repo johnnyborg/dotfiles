@@ -42,6 +42,7 @@ brew cask install sourcetree
 brew cask install sequel-pro
 brew cask install virtualbox
 brew cask install vagrant
+brew cask install boot2docker
 
 # browsers
 brew cask install google-chrome
