@@ -58,6 +58,16 @@ defaults write com.apple.screencapture type -string "jpg"
 defaults write com.apple.screencapture disable-shadow -bool true
 
 ##################################################################################
+# Dock
+##################################################################################
+
+# Remove the auto-hiding Dock delay
+defaults write com.apple.dock autohide-delay -float 0
+
+# Automatically hide and show the Dock
+defaults write com.apple.dock autohide -bool true
+
+##################################################################################
 # Hot corners
 ##################################################################################
 
