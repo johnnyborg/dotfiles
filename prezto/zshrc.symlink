@@ -49,3 +49,5 @@ do
 done
 
 unset config_files
+
+export PATH="$PATH:$HOME/.composer/vendor/bin:$HOME/.rvm/bin" # Add RVM to PATH for scripting
