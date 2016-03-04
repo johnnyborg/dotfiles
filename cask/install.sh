@@ -19,27 +19,16 @@ brew tap caskroom/versions
 # essentials
 brew cask install dropbox
 brew cask install 1password
-brew cask install keepassx
-brew cask install flux
 brew cask install seil
 brew cask install bettertouchtool
 brew cask install spotify
-brew cask install java6
-brew cask install mplayerx
 brew cask install licecap
-brew cask install crashplan
 brew cask install spacemonkey
 
 # dev
 brew cask install iterm2
 brew cask install sublime-text3
-brew cask install imagealpha
-brew cask install imageoptim
 brew cask install phpstorm
-brew cask install adobe-creative-cloud
-brew cask install xmind
-brew cask install sketch
-brew cask install sourcetree
 brew cask install sequel-pro
 brew cask install virtualbox
 brew cask install vagrant
@@ -57,8 +46,7 @@ brew cask install quicklook-json
 brew cask install qlprettypatch
 brew cask install quicklook-csv
 
-# lower priority 
-brew cask install disk-inventory-x
+# communication 
 brew cask install hipchat
 brew cask install slack
 
