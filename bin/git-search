@@ -1,0 +1,9 @@
+#!/bin/sh
+#
+# Usage: git-search <string>
+#
+# Shows a list of all commits that contain the given string.
+
+set -e
+
+git log -S "$1" --source --all
