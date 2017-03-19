@@ -1,8 +1,8 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
-# Path to your oh-my-zsh installation.
-export ZSH=/Users/aron/.oh-my-zsh
+# Shortcut to doftiles.
+export ZSH=$HOME/.dotfiles
 
 # Set default user to prevent name@host to show in the terminal
 export DEFAULT_USER=`whoami`
@@ -56,7 +56,7 @@ ZSH_THEME="agnoster"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git)
 
-source $ZSH/oh-my-zsh.sh
+source $HOME/.oh-my-zsh/oh-my-zsh.sh
 
 # User configuration
 
@@ -95,5 +95,3 @@ do
 done
 
 unset config_files
-
-export PATH="$PATH:$HOME/.composer/vendor/bin:$HOME/.rvm/bin" # Add RVM to PATH for scripting
