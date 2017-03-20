@@ -27,6 +27,9 @@ cask 'steam'
 cask 'phpstorm'
 cask 'whatsapp'
 cask 'telegram'
+cask 'querious'
+
+# Quick look plugins
 cask 'qlcolorcode'
 cask 'qlstephen'
 cask 'qlmarkdown '
