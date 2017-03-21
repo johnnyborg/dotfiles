@@ -10,6 +10,7 @@ brew 'readline'
 brew 'postgresql'
 brew 'wget'
 brew 'yarn'
+brew 'homebrew/php/composer'
 
 cask 'transmission'
 cask 'hyper'
