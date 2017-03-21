@@ -1,0 +1,5 @@
+#!/bin/sh
+#
+# Show what you did in the last 2 days 
+
+git log --since=2.days --no-merges --oneline
