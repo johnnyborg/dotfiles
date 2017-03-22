@@ -30,6 +30,7 @@ cask 'phpstorm'
 cask 'whatsapp'
 cask 'telegram'
 cask 'querious'
+cask 'sketch'
 
 # Quick look plugins
 cask 'qlcolorcode'
