@@ -3,6 +3,7 @@ cask_args appdir: '/Applications'
 tap 'homebrew/bundle'
 
 brew 'coreutils'
+brew 'ack'
 brew 'go'
 brew 'grc'
 brew 'node'
@@ -29,6 +30,7 @@ cask 'phpstorm'
 cask 'whatsapp'
 cask 'telegram'
 cask 'querious'
+cask 'sketch'
 
 # Quick look plugins
 cask 'qlcolorcode'
