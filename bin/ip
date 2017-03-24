@@ -1,0 +1,4 @@
+#!/bin/bash
+# Return my external IP address
+
+curl ifconfig.co
