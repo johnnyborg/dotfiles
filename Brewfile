@@ -39,6 +39,7 @@ cask 'sketch'
 cask 'the-unarchiver'
 cask 'teamviewer'
 cask 'mplayerx'
+cask 'sip'
 
 # Quick look plugins
 cask 'qlcolorcode'
