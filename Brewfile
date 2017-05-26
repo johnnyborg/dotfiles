@@ -15,6 +15,7 @@ brew 'aws'
 brew 'aws-shell'
 brew 'youtube-dl'
 brew 'tree'
+brew 'mas'
 brew 'homebrew/php/composer'
 
 cask 'transmission'
@@ -36,6 +37,9 @@ cask 'telegram'
 cask 'querious'
 cask 'sketch'
 cask 'the-unarchiver'
+cask 'teamviewer'
+cask 'mplayerx'
+cask 'sip'
 
 # Quick look plugins
 cask 'qlcolorcode'
