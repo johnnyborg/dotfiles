@@ -1,6 +1,7 @@
 cask_args appdir: '/Applications'
 
 tap 'homebrew/bundle'
+tap 'homebrew/php'
 
 brew 'coreutils'
 brew 'ack'
@@ -11,8 +12,6 @@ brew 'readline'
 brew 'wget'
 brew 'yarn'
 brew 'nmap'
-brew 'aws'
-brew 'aws-shell'
 brew 'youtube-dl'
 brew 'tree'
 brew 'mas'
