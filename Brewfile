@@ -39,6 +39,7 @@ cask 'the-unarchiver'
 cask 'teamviewer'
 cask 'mplayerx'
 cask 'sip'
+cask 'google-chrome'
 
 # Quick look plugins
 cask 'qlcolorcode'
