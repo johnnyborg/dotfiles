@@ -15,6 +15,7 @@ brew 'nmap'
 brew 'youtube-dl'
 brew 'tree'
 brew 'mas'
+brew 'php70'
 brew 'homebrew/php/composer'
 
 cask 'transmission'
