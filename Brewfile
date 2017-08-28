@@ -41,6 +41,7 @@ cask 'teamviewer'
 cask 'mplayerx'
 cask 'sip'
 cask 'google-chrome'
+cask 'balsamiq-mockups'
 
 # Quick look plugins
 cask 'qlcolorcode'
