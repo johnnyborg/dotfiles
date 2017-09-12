@@ -41,6 +41,9 @@ defaults write com.apple.Safari WebKitDeveloperExtrasEnabledPreferenceKey -bool 
 defaults write com.apple.Safari "com.apple.Safari.ContentPageGroupIdentifier.WebKit2DeveloperExtrasEnabled" -bool true
 defaults write NSGlobalDomain WebKitDeveloperExtras -bool true
 
+# Don't use inline attachments in Mail.app
+defaults write com.apple.mail DisableInlineAttachmentViewing -bool yes
+
 ##################################################################################
 # Screen
 ##################################################################################
