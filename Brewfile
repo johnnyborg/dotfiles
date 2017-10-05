@@ -17,6 +17,8 @@ brew 'tree'
 brew 'mas'
 brew 'php70'
 brew 'homebrew/php/composer'
+brew 'nvm'
+brew 'watchman'
 
 cask 'transmission'
 cask 'hyper'
@@ -42,6 +44,7 @@ cask 'mplayerx'
 cask 'sip'
 cask 'google-chrome'
 cask 'balsamiq-mockups'
+cask 'aerial'
 
 # Quick look plugins
 cask 'qlcolorcode'
