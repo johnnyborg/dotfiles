@@ -11,4 +11,3 @@ fi
 
 # Now that we are sure Brew and Mas are installed, let's install our apps
 mas install 497799835	# XCode
-mas install 410628904	# Wunderlist
