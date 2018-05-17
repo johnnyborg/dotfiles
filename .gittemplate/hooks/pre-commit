@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+set -o pipefail
+set -o errexit
+set -o nounset
+
+# set -o xtrace
+__DIR__="$(cd "$(dirname "${0}")"; echo $(pwd))"
+__BASE__="$(basename "${0}")"
+__FILE__="${__DIR__}/${__BASE__}"
+
+HOOKS="ochtra git-confirm"
+
+for hook in $HOOKS; do
+  if [ -x "${__DIR__}/$hook" ]; then
+    echo "Running $hook"
+    if ! ${__DIR__}/$hook; then
+      echo "$hook failed"
+      exit 1
+    fi
+  fi
+done

@@ -24,6 +24,7 @@ brew 'watchman'
 brew 'bower'
 brew 'blackfire-agent'
 brew 'ansible'
+brew 'hub'
 
 cask 'transmission'
 cask 'hyper'
