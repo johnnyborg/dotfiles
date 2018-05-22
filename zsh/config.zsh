@@ -1,1 +1,3 @@
-fpath=($ZSH/functions $fpath)
+fpath=($DOT/functions $fpath)
+
+autoload -U $DOT/functions/*(:t)
