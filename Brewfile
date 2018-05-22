@@ -1,7 +1,6 @@
 cask_args appdir: '/Applications'
 
 tap 'homebrew/bundle'
-tap 'homebrew/php'
 tap 'blackfireio/homebrew-blackfire'
 tap 'caskroom/fonts'
 
@@ -17,8 +16,8 @@ brew 'nmap'
 brew 'youtube-dl'
 brew 'tree'
 brew 'mas'
-brew 'php70'
-brew 'homebrew/php/composer'
+brew 'php@7.2'
+brew 'composer'
 brew 'nvm'
 brew 'watchman'
 brew 'bower'
@@ -50,6 +49,7 @@ cask 'sip'
 cask 'google-chrome'
 cask 'aerial'
 cask 'font-fira-code'
+case 'basecamp'
 
 # Quick look plugins
 cask 'qlcolorcode'
