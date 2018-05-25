@@ -12,6 +12,7 @@
         co = checkout
         promote = !$DOT/bin/git-promote
         wtf     = !$DOT/bin/git-wtf
+	changed-files = !$DOT/bin/git-changed-files
         rank-contributors = !$DOT/bin/git-rank-contributors
         count   = !git shortlog -sn
 	ignore = update-index --assume-unchanged
