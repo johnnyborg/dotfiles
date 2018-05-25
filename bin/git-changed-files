@@ -1,5 +1,4 @@
 #!/bin/bash
 
 # Show changed files in the current branch compared to master.
-git log --oneline --pretty="format:" --name-only master.. | awk 'NF' | sort -u
-
+git diff --name-only ..master
