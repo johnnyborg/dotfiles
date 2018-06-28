@@ -17,7 +17,7 @@
         count   = !git shortlog -sn
 	ignore = update-index --assume-unchanged
 	unignore = update-index --no-assume-unchanged
-	ignored = !git ls-files -v | grep "^[[:lower:]]
+	ignored = !git ls-files -v | grep "^[[:lower:]]"
 	# See which commits are on the remote that aren’t on your local branch
 	upstream = "! git fetch && git log --oneline --no-merges ..origin/$(git rev-parse --abbrev-ref HEAD)"
 	# Show detailed logs
