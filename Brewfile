@@ -49,7 +49,7 @@ cask 'sip'
 cask 'google-chrome'
 cask 'aerial'
 cask 'font-fira-code'
-case 'basecamp'
+cask 'basecamp'
 
 # Quick look plugins
 cask 'qlcolorcode'
