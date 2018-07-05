@@ -57,7 +57,7 @@ export PATH="$HOME/.yarn/bin:/Users/aron/Library/Python/2.7/bin:$PATH"
 
 if [ -d "$HOME/.nvm" ]; then
   export NVM_DIR="$HOME/.nvm"
-  . "/usr/local/opt/nvm/nvm.sh"
+  . "$(brew --prefix nvm)/nvm.sh"
 fi
 
 export LC_ALL=en_US.UTF-8 
