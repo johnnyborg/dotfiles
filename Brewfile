@@ -36,6 +36,7 @@ cask 'teamviewer'
 cask 'google-chrome'
 cask 'aerial'
 cask 'font-fira-code'
+cask 'macdown'
 
 # Quick look plugins
 cask 'qlcolorcode'
