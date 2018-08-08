@@ -1,7 +1,6 @@
 cask_args appdir: '/Applications'
 
 tap 'homebrew/bundle'
-tap 'blackfireio/homebrew-blackfire'
 tap 'caskroom/fonts'
 
 brew 'coreutils'
