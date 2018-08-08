@@ -37,6 +37,7 @@ cask 'google-chrome'
 cask 'aerial'
 cask 'font-fira-code'
 cask 'macdown'
+cask 'atom'
 
 # Quick look plugins
 cask 'qlcolorcode'
