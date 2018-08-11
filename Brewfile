@@ -1,7 +1,6 @@
 cask_args appdir: '/Applications'
 
 tap 'homebrew/bundle'
-tap 'blackfireio/homebrew-blackfire'
 tap 'caskroom/fonts'
 
 brew 'coreutils'
@@ -30,6 +29,7 @@ cask 'sublime-text'
 cask 'virtualbox'
 cask 'vagrant'
 cask 'hipchat'
+cask 'steam'
 cask 'phpstorm'
 cask 'teamviewer'
 cask 'google-chrome'
