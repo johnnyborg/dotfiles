@@ -4,7 +4,7 @@ tap 'homebrew/bundle'
 tap 'caskroom/fonts'
 
 brew 'coreutils'
-brew 'ack''
+brew 'ack'
 brew 'grc'
 brew 'node@8'
 brew 'readline'
